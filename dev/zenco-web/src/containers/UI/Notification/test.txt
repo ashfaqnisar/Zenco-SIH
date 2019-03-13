@@ -1,0 +1,37 @@
+const showNotification = ({ notification, position }) => {
+  switch (position) {
+    case 'left-up':
+      notificationLU.notice({
+        content: notification,
+        duration: 5,
+        closable: true,
+        style: { top: 0, left: 240 },
+        className: position,
+      });
+      break;
+    case 'right-up':
+      notificationRU.notice({
+        content: notification,
+        duration: 10,
+        closable: true,
+        style: { top: 0, left: 'calc(100vw - 100%)' },
+        className: position,
+      });
+      break;
+    default:
+      notificationTC.notice({
+        content: notification,
+        duration: 5,
+        closable: true,
+        style: { top: 0, left: 0 },
+        className: position,
+      });
+      break;
+  }
+
+};
+
+<BasicNotifications showNotification={showNotification} />
+          <ImageNotifications showNotification={showNotification} />
+          <ColorStates showNotification={showNotification} />
+          <ColorStatesFullWidth showNotification={showNotification} />

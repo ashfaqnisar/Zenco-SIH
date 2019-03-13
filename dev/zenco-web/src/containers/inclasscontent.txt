@@ -1,0 +1,16 @@
+In import
+import PropTypes from 'prop-types';
+
+Outside Render -
+static propTypes = {
+    title: PropTypes.string.isRequired,
+    icon: PropTypes.string.isRequired,
+    path: PropTypes.string.isRequired,
+  };
+
+Inside Render -
+    const { title, icon, path } = this.props;
+
+    In return -
+    {path}
+

@@ -1,0 +1,51 @@
+{
+    "consumption": 100,
+    "estimated_consumption": 300,
+    "cost": 1000,
+    "estimated_cost": 3000,
+    "solar_production": 50,
+    "estimated_solar_cost": 100,
+    "efficiency" : 76,
+    "changeInCost_Percentage": 40,
+    "changeInCost_Money": 2000,
+    "energy_intensity":345,
+    "machine_1":11,
+    "machine_2":9.8,
+    "machine_3":9.6,
+    "machine_4":8.8,
+    "machine_5":9.0,
+    "machine_6":9.1,
+}
+
+ componentDidMount() {
+        axios.get('https://www.ezerka.org/ashfaq.json')
+            .then(({ data })=> {
+                this.setState({
+                    power_consumed: data.power_consumed,
+                    home_data: data.power_consumed
+                });
+            })
+            .catch((err)=> {
+                console.log("No error")
+            })
+    }
+
+
+    {
+                        "consumption": 100,
+                        "estimated_consumption": 300,
+                        "cost": 1000,
+                        "estimated_cost": 3000,
+                        "solar_production": 50,
+                        "estimated_solar_cost": 100,
+                        "efficiency" : 76,
+                        "changeInCost_Percentage": 40,
+                        "changeInCost_Money": 2000,
+                        "energy_intensity":345,
+                        "machine_1":11,
+                        "machine_2":9.8,
+                        "machine_3":9.6,
+                        "machine_4":8.8,
+                        "machine_5":9.0,
+                        "machine_6":9.1,
+                    }

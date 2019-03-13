@@ -1,0 +1,5 @@
+themeReducer - intial state change-dark
+themeAction
+layout/index
+landing/index
+sidebarcontent.jsx
