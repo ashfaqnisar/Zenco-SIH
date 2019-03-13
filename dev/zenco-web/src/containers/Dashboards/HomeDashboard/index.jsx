@@ -41,7 +41,7 @@ class HomeDashboard extends React.Component {
     }
     
     componentDidMount() {
-        const dataRef = firebase.database().ref('home_data')
+        const dataRef = firebase.database().ref('home_data')//This is for the comments
         dataRef.on('value', (snapshot) => {
             let AllTheData = snapshot.val();
             let newState = [];
