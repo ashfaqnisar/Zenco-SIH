@@ -5,15 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="62e869ac-941f-4633-bed9-38bfa1f7201b" name="Default Changelist" comment="Intial Commit">
-      <change afterPath="$PROJECT_DIR$/../pictures/bakground for the login.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pictures/login without background.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../temp/zenco" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../hardware/firebase.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../hardware/readme.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../hardware/sendValues.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../research/about solar energy/GetRadiationForecasts.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../research/about solar energy/PV-power-calculation-basic.xls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../research/about solar energy/compass2.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../temp/pluralsightprogram" beforeDir="false" afterPath="$PROJECT_DIR$/../temp/pluralsightprogram" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../temp/zenco" beforeDir="false" afterPath="$PROJECT_DIR$/../temp/zenco" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/node_modules/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,7 +18,61 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/containers/Dashboards/HomeDashboard/index.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="268">
+              <caret line="43" column="86" selection-start-line="43" selection-start-column="86" selection-end-line="43" selection-end-column="86" />
+              <folding>
+                <element signature="e#0#43#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/fav.ico">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/containers/Dashboards/1/index.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/containers/Dashboards/2/index.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -55,11 +104,11 @@
         <option value="$PROJECT_DIR$/src/containers/Dashboards/MachinesDashboard/machine1/components/MachineConsumption.jsx" />
         <option value="$PROJECT_DIR$/src/containers/Dashboards/hello.txt" />
         <option value="$PROJECT_DIR$/src/firebase.js" />
-        <option value="$PROJECT_DIR$/src/containers/Dashboards/HomeDashboard/index.jsx" />
         <option value="$PROJECT_DIR$/src/containers/Dashboards/HomeDashboard/components/PowerConsumption.jsx" />
         <option value="$PROJECT_DIR$/src/containers/Dashboards/HomeDashboard/components/LiveUsage.jsx" />
         <option value="$PROJECT_DIR$/src/containers/Documentation/05_forms/components/Material.jsx" />
         <option value="$PROJECT_DIR$/src/containers/Documentation/04_components/components/Notifications.jsx" />
+        <option value="$PROJECT_DIR$/src/containers/Dashboards/HomeDashboard/index.jsx" />
       </list>
     </option>
   </component>
@@ -75,8 +124,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -89,6 +138,53 @@
               <item name="zenco-web" type="462c0819:PsiDirectoryNode" />
               <item name="public" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="zenco-web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zenco-web" type="462c0819:PsiDirectoryNode" />
+              <item name="scripts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zenco-web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zenco-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zenco-web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zenco-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="containers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zenco-web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zenco-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="containers" type="462c0819:PsiDirectoryNode" />
+              <item name="Dashboards" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zenco-web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zenco-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="containers" type="462c0819:PsiDirectoryNode" />
+              <item name="Dashboards" type="462c0819:PsiDirectoryNode" />
+              <item name="1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zenco-web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zenco-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="containers" type="462c0819:PsiDirectoryNode" />
+              <item name="Dashboards" type="462c0819:PsiDirectoryNode" />
+              <item name="2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zenco-web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zenco-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="containers" type="462c0819:PsiDirectoryNode" />
+              <item name="Dashboards" type="462c0819:PsiDirectoryNode" />
+              <item name="HomeDashboard" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -98,7 +194,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552498526558" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552500116414" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
@@ -133,6 +229,8 @@
       <workItem from="1552387219491" duration="2553000" />
       <workItem from="1552494837323" duration="2839000" />
       <workItem from="1552498673192" duration="111000" />
+      <workItem from="1552499793568" duration="461000" />
+      <workItem from="1552574961203" duration="598000" />
     </task>
     <task id="LOCAL-00001" summary="Intial Commit">
       <created>1552497837996</created>
@@ -141,16 +239,23 @@
       <option name="project" value="LOCAL" />
       <updated>1552497837996</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Intial Commit(Checked for Comments)">
+      <created>1552500022625</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1552500022625</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34543000" />
+    <option name="totallyTimeSpent" value="35602000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="26" width="1920" height="1030" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15524626" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15952891" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -259,8 +364,12 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
     <MESSAGE value="Intial Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Intial Commit" />
+    <MESSAGE value="Intial Commit(Checked for Comments)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Intial Commit(Checked for Comments)" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -424,16 +533,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/Dashboards/HomeDashboard/index.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="990">
-          <caret line="43" column="58" selection-start-line="43" selection-start-column="49" selection-end-line="43" selection-end-column="58" />
-          <folding>
-            <element signature="e#0#43#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/containers/Dashboards/HomeDashboard/components/LiveUsage.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="528">
@@ -537,13 +636,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/firebase.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="363">
@@ -568,6 +660,47 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/Dashboards/HomeDashboard/index.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="43" column="86" selection-start-line="43" selection-start-column="86" selection-end-line="43" selection-end-column="86" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/fav.ico">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/Dashboards/1/index.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/Dashboards/2/index.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -24,6 +24,7 @@
     "file-loader": "2.0.0",
     "firebase": "^5.8.5",
     "fs-extra": "7.0.0",
+    "global": "^4.3.2",
     "highcharts": "^6.1.4",
     "html-webpack-plugin": "4.0.0-alpha.2",
     "i18next": "^11.9.0",

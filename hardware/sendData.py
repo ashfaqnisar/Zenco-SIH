@@ -1,6 +1,7 @@
 import pyrebase
 import random
 from time import sleep
+#from ina219 import INA219, DeviceRangeError
 
 
 config = {
@@ -16,10 +17,26 @@ firebase = pyrebase.initialize_app(config)
 
 db = firebase.database()
 
-val = 1
-while val==1:
+
+SHUNT_OHMS = 0.1
+MAX_EXPECTED_AMPS = 2.0
+#ina = INA219(SHUNT_OHMS, MAX_EXPECTED_AMPS)
+#ina.configure(ina.RANGE_16V)
+
+while 1:
+
     voltage = random.randint(45,55)
     current = random.randint(53,63)
+    power = random.randint(1,9)
+    shunt_voltage = random.randint(0.10, 3)
+
+    print('Bus Voltage: ',voltage,"V")
+    print('Bus Current:', current,"mA")
+    print('Power:', power,"mW")
+    print('Shunt Voltage:', shunt_voltage,"mV")
+
+
+
     costPerUnit = 5.35#1lakh units (more = 5.75)
 
 
