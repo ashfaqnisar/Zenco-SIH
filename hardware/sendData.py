@@ -28,12 +28,12 @@ while 1:
     voltage = random.randint(45,55)
     current = random.randint(53,63)
     power = random.randint(1,9)
-    shunt_voltage = random.randint(0.10, 3)
+    shunt_voltage = random.randint(1, 3)
 
     print('Bus Voltage: ',voltage,"V")
     print('Bus Current:', current,"mA")
     print('Power:', power,"mW")
-    print('Shunt Voltage:', shunt_voltage,"mV")
+    print('Shunt Voltage:', shunt_voltage,"mV",'\n')
 
 
 
@@ -44,6 +44,5 @@ while 1:
         'consumption':voltage,
         'estimatedConsumption':current
     }
-    print(data)
     db.child("home_data").child("-L_ONNCKCabp_Z55QUXM").set(data)
-    sleep(5)
+    sleep(2)
