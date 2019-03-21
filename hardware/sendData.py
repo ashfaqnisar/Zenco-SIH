@@ -25,8 +25,8 @@ MAX_EXPECTED_AMPS = 2.0
 
 while 1:
 
-    voltage = random.randint(45,55)
-    current = random.randint(53,63)
+    voltage = random.randint(7,8)
+    current = random.randint(18,40)
     power = random.randint(1,9)
     shunt_voltage = random.randint(1, 3)
 
