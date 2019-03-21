@@ -25,10 +25,10 @@ MAX_EXPECTED_AMPS = 2.0
 
 while 1:
 
-    voltage = random.randint(7,8)+round(random.uniform(0.01,0.90),4+round(random.uniform(0.01,0.90),4)
-    current = random.randint(18,40)+round(random.uniform(0.01,0.90),4+round(random.uniform(0.01,0.90),4
-    power = random.randint(1,9)+round(random.uniform(0.01,0.90),4
-    shunt_voltage = random.randint(1, 3)+round(random.uniform(0.01,0.90),4
+    voltage = random.randint(7,8)+round(random.uniform(0.01,0.90),4)
+    current = random.randint(18,40)+round(random.uniform(0.01,0.90),4)
+    power = random.randint(1,9)+round(random.uniform(0.01,0.90),4)
+    shunt_voltage = random.randint(1, 3)+round(random.uniform(0.01,0.90),4)
 
     print('Bus Voltage: ',voltage,"V")
     print('Bus Current:', current,"mA")
