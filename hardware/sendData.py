@@ -25,20 +25,20 @@ ina.configure(ina.RANGE_16V)
 
 while 1:
     try:
-        voltage = ina.voltage()
-        current = ina.current()
-        power = ina.power()
-        shunt_voltage = ina.shunt_voltage()
+        voltage = round(ina.voltage(),2)
+        current = round(ina.current(),2)
+        power = round(ina.power(),2)
+        shunt_voltage = round(ina.shunt_voltage(),2)
 
-        # print('Bus Voltage: ',voltage,"V")
-        # print('Bus Current:', current,"mA")
-        # print('Power:', power,"mW")
-        # print('Shunt Voltage:', shunt_voltage,"mV",'\n')
+        print('Bus Voltage: ',voltage,"V")
+        print('Bus Current:', current,"mA")
+        print('Power:', power,"mW")
+        print('Shunt Voltage:', shunt_voltage,"mV",'\n')
 
-        print('Bus Voltage: {0:0.2f}V'.format(ina.voltage()))
-        print('Bus Current: {0:0.2f}mA'.format(ina.current()))
-        print('Power: {0:0.2f}mW'.format(ina.power()))
-        print('Shunt Voltage: {0:0.2f}mV\n'.format(ina.shunt_voltage()))
+        # print('Bus Voltage: {0:0.2f}V'.format(ina.voltage()))
+        # print('Bus Current: {0:0.2f}mA'.format(ina.current()))
+        # print('Power: {0:0.2f}mW'.format(ina.power()))
+        # print('Shunt Voltage: {0:0.2f}mV\n'.format(ina.shunt_voltage()))
 
         #costPerUnit = 5.35#1lakh units (more = 5.75)
 
