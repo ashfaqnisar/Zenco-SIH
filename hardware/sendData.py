@@ -30,10 +30,15 @@ while 1:
         power = ina.power()
         shunt_voltage = ina.shunt_voltage()
 
-        print('Bus Voltage: ',voltage,"V")
-        print('Bus Current:', current,"mA")
-        print('Power:', power,"mW")
-        print('Shunt Voltage:', shunt_voltage,"mV",'\n')
+        # print('Bus Voltage: ',voltage,"V")
+        # print('Bus Current:', current,"mA")
+        # print('Power:', power,"mW")
+        # print('Shunt Voltage:', shunt_voltage,"mV",'\n')
+
+        print('Bus Voltage: {0:0.2f}V'.format(ina.voltage()))
+        print('Bus Current: {0:0.2f}mA'.format(ina.current()))
+        print('Power: {0:0.2f}mW'.format(ina.power()))
+        print('Shunt Voltage: {0:0.2f}mV\n'.format(ina.shunt_voltage()))
 
         #costPerUnit = 5.35#1lakh units (more = 5.75)
 
