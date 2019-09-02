@@ -22,8 +22,8 @@ const showNotification = () => {
     notification.notice({
         content:
             <BasicNotification
-                title="👋 Welcome to Zenco!"
-                message="You have successfully logged into Zenco. Start exploring the Awesome Dashboard"
+                title="👋 Welcome to Enimo!"
+                message="You have successfully logged into Enimo. Start exploring the Awesome Dashboard"
             />,
         duration: 5,
         closable: true,
